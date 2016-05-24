@@ -1,6 +1,10 @@
 ﻿<div id='cssmenu'>
     <ul>
-        <li class='active'><a href='index.php'>Inicio</a></li>
+        <li class='active'><a href='index.php'>Inicio</a>
+            <ul> 
+                <li ><a href='/form/formCambiaClave.php'>Cambia Clave</a></li>
+            </ul>
+        </li>
         <li class='has-sub'><a href='#'>Exportaciones</a>
             <ul> 
                 <li ><a href='exportaciones_add.php'>Agregar</a></li>
